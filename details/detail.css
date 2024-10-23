@@ -1,0 +1,166 @@
+body {
+    font-family: Arial;
+    color: rgb(78, 61, 75);
+    background-color: rgb(250, 208, 248);
+  }
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: purple;
+  }
+  
+  .topnav a {
+    float: left;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    color:#f596f8;
+      outline: 1px solid white;
+      outline-offset: 0
+  }
+  
+  .applogo{
+    font-weight: bolder;
+  }
+  
+  .topnav .search-container {
+      position: static;
+      float: none;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px 250px 6px 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    -ms-border-radius: 4px 0 0 4px;
+    -o-border-radius: 4px 0 0 4px;
+  }
+  
+  .topnav .search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: rgb(190, 4, 190);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -ms-border-radius: 0 4px 4px 0;
+    -o-border-radius: 0 4px 4px 0;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #f596f8;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+  
+  .navat{
+    float: right;
+  }
+
+  .detail {
+    background: white;
+    height: 80%;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+  
+  
+.detail_box_1{
+    margin-left: 90px;
+    float: left;
+    width: 65%;
+    font-weight: bolder;
+}
+
+.detail_box_1 img{
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-left: 20px;
+}
+
+.detail_box_1 p{
+    font-size: 20px;
+}
+
+
+.a-icon.a-star-small-5 {
+    background-position: -2px -2px;
+}
+.a-icon.a-icon-star, .a-icon.a-icon-star-medium, .a-icon.a-icon-star-mini, .a-icon.a-icon-star-small {
+    background-image: url(https://m.media-amazon.com/images/S/sash/AlBdmSbHJgW56$l.png);
+    background-size: 512px 512px;
+    background-repeat: no-repeat;
+}
+.a-align-bottom, .aok-align-bottom {
+    vertical-align: bottom!important;
+}
+.a-icon-star, .a-icon-star-small {
+    height: 18px;
+    width: 80px;
+}
+.a-icon-star, .a-icon-star-medium, .a-icon-star-mini, .a-icon-star-small {
+    position: relative;
+}
+.a-icon {
+    display: inline-block;
+}
+
+hr.new1 {
+    border-top: 1px solid ash;
+    width: 300px;
+    margin-left: 30px;
+  }
+
+  hr.new2 {
+    border-top: 1px solid ash;
+    width: 500px;
+    margin-left: 300px;
+  }
+
+
+.detail_box_2{
+    padding: 10px 5px;
+    margin-right: 90px;
+    float: right;
+    width: 18%;
+}
+
+.link-button {
+    background-color: #b002c0;
+    text-decoration: none;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+  }

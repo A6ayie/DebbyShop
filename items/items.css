@@ -1,0 +1,78 @@
+
+body{
+    * {box-sizing: border-box;}
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+   
+
+    div.scroll-container {
+      background-color: #333;
+      overflow: auto;
+      white-space: nowrap;
+      padding: 10px;
+    }
+    
+    div.scroll-container img {
+      padding: 10px;
+    }
+}
+
+
+.card {
+  float: left;
+  width: 22.5%;
+  margin: 20px 10px;
+  padding: 15px;
+  text-align: center;
+  font-family: arial;
+}
+
+img{
+  width: 40px;
+  height: 200px;
+}
+
+.price {
+  color: rgb(14, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.a-icon.a-star-small-5 {
+    background-position: -2px -2px;
+}
+.a-icon.a-icon-star, .a-icon.a-icon-star-medium, .a-icon.a-icon-star-mini, .a-icon.a-icon-star-small {
+    background-image: url(https://m.media-amazon.com/images/S/sash/AlBdmSbHJgW56$l.png);
+    background-size: 512px 512px;
+    background-repeat: no-repeat;
+}
+.a-align-bottom, .aok-align-bottom {
+    vertical-align: bottom!important;
+}
+.a-icon-star, .a-icon-star-small {
+    height: 18px;
+    width: 80px;
+}
+.a-icon-star, .a-icon-star-medium, .a-icon-star-mini, .a-icon-star-small {
+    position: relative;
+}
+.a-icon {
+    display: inline-block;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: #3b0141;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+
+
